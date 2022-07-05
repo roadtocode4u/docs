@@ -12,7 +12,7 @@ C,C++,Java,Python,Kotlin,Javascript,Ruby,Typescript,C#, ...
 
 ## What is C Programming?
 
-C is a general-purpose programming language.C prograamming created by **Dennis Ritchie** at the **Bell Laboratories** in **1972**.
+C is a general-purpose programming language.C programming created by **Dennis Ritchie** at the **Bell Laboratories** in **1972**.
 
 **💻 Example 1 :**
 ```c
@@ -64,7 +64,7 @@ int main()
 **⚙️ Output :**
 >HyeHow Are You ?
 
-## New Line Charachter
+## New Line Character
 
 `\n` is used to New line Character.
 

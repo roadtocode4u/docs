@@ -250,7 +250,7 @@ int main() {
 
 This Operator are used to increase the value of variable.
 
-By Defalut, the value is incremented by **1**.
+By Default, the value is incremented by **1**.
 
 **💻Example :**
 ```c
@@ -365,7 +365,7 @@ int main() {
 
 This Operator are used to decrease the value of variable.
 
-By Defalut, the value is Decremented by **1**.
+By Default, the value is Decremented by **1**.
 
 **💻Example :**
 ```c
@@ -634,7 +634,7 @@ int main() {
     si=(p*r*t)/100;
     
     printf("Simple Interest :%f",si);
-    printf("\nPayble Amount:%f",p+si);
+    printf("\nPayable Amount:%f",p+si);
     
     return 0;
 }
@@ -642,7 +642,7 @@ int main() {
 **⚙️ Output :**
 >Enter Principle,Rate and Time:5000 300 2   
 Simple Interest :30000.000000   
-Payble Amount:35000.000000  
+Payable Amount:35000.000000  
 
 **💻Example:**
 ```c
@@ -658,14 +658,14 @@ int main() {
    
    f=1.8*c+32;
    
-   printf(" Temperature in Fahreinheit =%f",f);
+   printf(" Temperature in Fahrenheit =%f",f);
     
     return 0;
 }
 ```
 **⚙️ Output :**
 >Enter Temperature in Celsius :36   
-Temperature in Fahreinheit =96.800003
+Temperature in Fahrenheit =96.800003
 
 
 ## 🏠Homework 

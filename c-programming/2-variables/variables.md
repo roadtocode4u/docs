@@ -248,13 +248,13 @@ int main() {
 int main() {
     float num = 20.5;
     
-    printf("Numberis %f", num);
+    printf("Number is %f", num);
     
     return 0;
 }
 ```
 **⚙️ Output :**
->Numberis 20.500000
+>Number is 20.500000
 
 **💻Example 12 :**
 ```c
