@@ -10,7 +10,7 @@ Programming is the process of instructions that tell a computer how to perform a
 C,C++,Java,Python,Kotlin,Javascript,Ruby,Typescript,C#, ...
 ```
 
-## What is C Programmong?
+## What is C Programming?
 
 C is a general-purpose programming language.C prograamming created by **Dennis Ritchie** at the **Bell Laboratories** in **1972**.
 
