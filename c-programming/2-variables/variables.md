@@ -13,7 +13,7 @@ Variable is used to store data.
 
 **1. Integers (int)**
 
- Intergers means Stores whole numbers without decimals point.
+ Integers means Stores whole numbers without decimals point.
 
 💻Example  = 1,2,2253,899,44,55...
 
