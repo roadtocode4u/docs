@@ -57,7 +57,7 @@ sum:30
 # Practice Questions C Programming 
 
 
-## 💻🏆Examples :
+## 💻Examples :
 
 **💻Example:**
 ```c
