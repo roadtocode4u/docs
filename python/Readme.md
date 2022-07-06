@@ -28,10 +28,11 @@
 ## Week 5
 - Function in Python
 - Math Modules , Recursion in Python
-- OOPs Concept in Python
-- Getter and Setter ,Four Pillars Methods in Python
+
 
 ## Week 6
+- OOPs Concept in Python
+- Getter and Setter ,Four Pillars Methods in Python
 - Inheritance in Python
 - Encapsulation, Abstraction and Polymorphism in Python
 - Constructors and Destructors in Python
