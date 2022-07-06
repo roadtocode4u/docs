@@ -24,6 +24,8 @@ int main() {
 >Enter value of val:10    
 output is 10  
 
+Write a C program to calculate Sum of two numbers
+
  **💻Example :**
 ```c
 #include <stdio.h>
@@ -54,14 +56,13 @@ sum:30
 
 <br>
 
-# Practice Questions C Programming 
+# Taking input from user
 
+write a C program to calculate the sum of two numbers ?
 
 ## 💻Examples :
 
-**💻Example:**
 ```c
-// Sum of two numbers
 
 #include <stdio.h>
 
@@ -84,6 +85,8 @@ int main() {
 >Enter value of num1 :10   
 Enter value of num1 :20    
 sum of num1 and num2 =30  
+
+Write a C program to input marks in 3 subjects
 
 **💻Example:**
 ```c
@@ -134,9 +137,10 @@ int main() {
 >Enter marks of Marathi ,Hindi,and English :95 95 95     
 M=95 H=95 E=95
 
+Write a C program to take input from user and print sum and percentage 
+
 **💻Example:**
 ```c
-//Take input from user and print sum and percentage 
 
 #include <stdio.h>
 
@@ -160,10 +164,10 @@ int main() {
 >Enter marks of Marathi ,Hindi,and English :95 95 95    
 Sum=285,Percentage=95 %
 
+Write a C program to calculate Simple Interest
 
 **💻Example:**
 ```c
-//C program to calculate Simple Interest
 #include <stdio.h>
 
 int main() {
@@ -186,9 +190,10 @@ int main() {
 Simple Interest :30000.000000   
 Payable Amount:35000.000000  
 
+Write a C Program to convert temperature from celsius to fahrenheit 
+
 **💻Example:**
 ```c
-//Program to convert temperature from celsius to fahrenheit 
 #include <stdio.h>
 
 int main() {
