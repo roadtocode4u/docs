@@ -4,7 +4,7 @@
 
 scanf() is one of the commonly used function to take input from the user, to  read the input data from the console.
 
- **💻Example :**
+ **💻Example : write a c program to take input from user and print it.**
 ```c
 #include <stdio.h>
 
@@ -24,9 +24,8 @@ int main() {
 >Enter value of val:10    
 output is 10  
 
-Write a C program to calculate Sum of two numbers
 
- **💻Example :**
+ **💻Example : Write a C program to calculate Sum of two numbers.**
 ```c
 #include <stdio.h>
 
@@ -58,9 +57,9 @@ sum:30
 
 # Taking input from user
 
-write a C program to calculate the sum of two numbers ?
 
-## 💻Examples :
+
+**💻Example  : Write a C program to calculate the sum of two numbers.**
 
 ```c
 
@@ -86,9 +85,8 @@ int main() {
 Enter value of num1 :20    
 sum of num1 and num2 =30  
 
-Write a C program to input marks of 3 subjects
 
-**💻Example:**
+**💻Example : Write a C program to print input marks of 3 subjects**
 ```c
 
 #include <stdio.h>
@@ -117,7 +115,7 @@ Enter marks of English :95
 M=95 H=95 E=95
 
 
-**💻Example:**
+**💻Example :  write a c program to print input marks of 3 subjects**
 ```c
 #include <stdio.h>
 
@@ -137,9 +135,8 @@ int main() {
 >Enter marks of Marathi ,Hindi,and English :95 95 95     
 M=95 H=95 E=95
 
-Write a C program to take input from user and print sum and percentage 
 
-**💻Example:**
+**💻Example : Write a C program to take input from user and print sum and percentage**
 ```c
 
 #include <stdio.h>
@@ -164,9 +161,9 @@ int main() {
 >Enter marks of Marathi ,Hindi,and English :95 95 95    
 Sum=285,Percentage=95 %
 
-Write a C program to calculate Simple Interest
 
-**💻Example:**
+**💻Example : Write a C program to calculate Simple Interest**
+
 ```c
 #include <stdio.h>
 
@@ -189,10 +186,10 @@ int main() {
 >Enter Principle,Rate and Time:5000 300 2   
 Simple Interest :30000.000000   
 Payable Amount:35000.000000  
+ 
 
-Write a C Program to convert temperature from celsius to fahrenheit 
+**💻Example : Write a C Program to convert temperature from celsius to fahrenheit**
 
-**💻Example:**
 ```c
 #include <stdio.h>
 
