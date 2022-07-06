@@ -86,7 +86,7 @@ int main() {
 Enter value of num1 :20    
 sum of num1 and num2 =30  
 
-Write a C program to input marks in 3 subjects
+Write a C program to input marks of 3 subjects
 
 **💻Example:**
 ```c
