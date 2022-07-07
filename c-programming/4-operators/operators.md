@@ -170,7 +170,7 @@ int main() {
 
 <br>
 
-# Increment, Decrement Operator and Scanf Functions in C Programming 
+# Increment, Decrement Operator in C Programming 
 
 **💻Example :**
 ```c
