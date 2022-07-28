@@ -889,3 +889,463 @@ int main() {
 >1️⃣ Write a program to take age from user and check if he / she eligible for voting.
 
 <br>
+
+# Logical Operators C Programming 
+
+## Logical Operators 
+
+Logical operator are used to chaining condition.
+
+* Logical AND (&&)
+* Logical OR (||)
+* Logical Not (!)
+
+### Logical AND (&&) 
+  
+  Result True, if both operand condition are true otherwise false.
+
+**💻Example: WAP to find eligibility for admission using if else statement**
+```c
+
+#include <stdio.h>
+
+int main() {
+ int physics=95;
+ int maths=98;
+ 
+   if (physics>=80 && maths>=80)
+ {
+     printf("Admission Granted ...");
+ }
+ else
+ {
+     printf("Admission Rejected ...");
+ }
+    
+    return 0;
+}
+```
+**⚙️ Output :**
+>Admission Granted ..
+
+**💻Example: WAP to find eligibility for admission using if else statement**
+```c
+
+#include <stdio.h>
+
+int main() {
+ int physics=50;
+ int maths=98;
+ 
+   if (physics>=80 && maths>=80)
+ {
+     printf("Admission Granted ...");
+ }
+ else
+ {
+     printf("Admission Rejected ...");
+ }
+    
+    return 0;
+}
+```
+**⚙️ Output :**
+>Admission Rejected ...
+
+**💻Example: WAP to find eligibility for admission using if else statement**
+```c
+
+#include <stdio.h>
+
+int main() {
+ int physics=95;
+ int maths=45;
+ 
+   if (physics>=80 && maths>=80)
+ {
+     printf("Admission Granted ...");
+ }
+ else
+ {
+     printf("Admission Rejected ...");
+ }
+    
+    return 0;
+}
+```
+**⚙️ Output :**
+>Admission Rejected ...
+
+ ###  Logical OR (||)
+
+ Result True if both operand condition are true and one of the condition is true otherwise result False.
+
+**💻Example:**
+```c
+#include <stdio.h>
+
+int main()
+{
+ int physics=90;
+ int maths=98;
+ 
+   if (physics>=80 || maths>=80)
+ {
+     printf("Admission Granted ...");
+ }
+ else
+ {
+     printf("Admission Rejected ...");
+ }
+    
+    return 0;
+}
+```
+**⚙️ Output :**
+>Admission Granted ...
+
+**💻Example: WAP to find eligibility for admission using if else statement**
+```c
+
+#include <stdio.h>
+
+int main()
+{
+ int physics=0;
+ int maths=98;
+ 
+   if (physics>=80 || maths>=80)
+ {
+     printf("Admission Granted ...");
+ }
+ else
+ {
+     printf("Admission Rejected ...");
+ }
+    
+    return 0;
+}
+```
+**⚙️ Output :**
+>Admission Granted ...
+
+**💻Example: WAP to find eligibility for admission using if else statement**
+```c
+#include <stdio.h>
+
+int main()
+{
+ int physics=90;
+ int maths=0;
+ 
+   if (physics>=80 || maths>=80)
+ {
+     printf("Admission Granted ...");
+ }
+ else
+ {
+     printf("Admission Rejected ...");
+ }
+    
+    return 0;
+}
+```
+**⚙️ Output :**
+>Admission Granted ...
+ 
+**💻Example: WAP to find eligibility for admission using if else statement**
+```c
+#include <stdio.h>
+
+int main()
+{
+ int physics=0;
+ int maths=0;
+ 
+   if (physics>=80 || maths>=80)
+ {
+     printf("Admission Granted ...");
+ }
+ else
+ {
+     printf("Admission Rejected ...");
+ }
+    
+    return 0;
+}
+```
+**⚙️ Output :**
+>Admission Rejected ...
+
+
+### Logical Not (!)
+
+**💻Example: WAP to find result of given subject**
+```c
+#include <stdio.h>
+
+int main() 
+{
+    
+    int physics=70;
+   
+    
+    int result=!(physics>=80);
+    printf("Result=%d",result);
+    
+    return 0;
+}
+```
+**⚙️ Output :**
+>Result=1
+
+# If-Else Ladder in C Programming 
+
+## If-Else Ladder
+
+**Syntax :**
+```c
+if(condition1)
+{
+   //block of statement
+}
+else if(condition 2)
+{
+  //block of statement
+}
+else if(condition 3)
+{
+  //block of statement
+}
+else
+{
+  //block of statement  
+}
+```
+
+**💻Example: WAP to find out grade of given percentage using if else ladder**
+```c
+#include <stdio.h>
+
+int main() {
+  
+   int marks = 95;
+   
+   if (marks>95)
+   {
+       printf("Grade A ");
+   }
+   else if(marks>80)
+   {
+       printf("Grade B");
+   }
+   else if(marks>70)
+   {
+       printf("Grade c");
+   }
+   else
+   {
+       printf("FAIl");
+   }
+
+    return 0;
+}
+```
+**⚙️ Output :**
+>Grade B
+
+**💻Example: WAP to find out grade of given percentage using if else ladder**
+
+```c
+#include <stdio.h>
+
+int main() {
+  
+   int marks = 61;
+   
+   if (marks>60)
+   {
+       printf("Grade D");
+   }
+   else if(marks>70)
+   {
+       printf("Grade C");
+   }
+   else if(marks>80)
+   {
+       printf("Grade B");
+   }
+   else if(marks>90)
+   {
+       printf("Grade A");
+   }
+   else
+   {
+       printf("FAIl");
+   }
+
+    return 0;
+}
+```
+**⚙️ Output :**
+>Grade D
+
+**💻Example: WAP to find out grade of given percentage using if else ladder**
+```c
+#include <stdio.h>
+
+int main() {
+  
+   int marks = 95;
+   
+   if (marks>90 && marks<=100)
+   {
+       printf("Grade A ");
+   }
+   else if(marks>80 && marks<=90)
+   {
+       printf("Grade B");
+   }
+   else if(marks>70 && marks<=80)
+   {
+       printf("Grade B");
+   }
+   else if (marks>60 && marks<=70)
+   {
+       printf(" Grade D")
+   }
+   else
+   {
+       printf("FAIl");
+   }
+
+    return 0;
+}
+```
+**⚙️ Output :**
+>Grade A
+
+# Nested-If in C Programming 
+
+## Nested-If
+
+Nested If in C Programming is placing If Statement inside another IF Statement. Nested If in C is helpful if you want to check the condition inside a condition. 
+
+**Syntax :**
+```c
+if(condition 1)
+{
+   if(condition 2) {
+      //Statement block Executes when the boolean test expression two is true.
+   }
+}
+else
+{
+    //else statement block
+}
+```
+
+**💻Example: WAP to give **
+```c
+
+#include <stdio.h>
+
+int main() {
+    int hsc=80;
+    int jee=130;
+    
+    if(hsc>=60)
+    {
+        printf("You cleared HSC");
+        
+        if(jee>=120)
+        {
+            printf("\nYou cleared JEE");
+        }
+        else
+        {
+            printf("\n You did not cleared JEE");
+        }
+    }
+    else
+    {
+        printf("You did not cleared HSC");
+    }
+    
+    return 0;
+}
+```
+**⚙️ Output :**
+>You cleared HSC   
+You cleared JEE
+
+**💻Example:**
+```c
+#include <stdio.h>
+
+int main() {
+    int a,b,c;
+    printf("Enter the values of a,b,c");
+    scanf("%d%d%d",&a,&b,&c);
+    
+    if(a>b)
+    {
+        if(a>c)
+        {
+            printf("%d is greatest",a);
+        }
+        else
+        {
+            printf("%d is greatest",c);
+        }
+    }
+    else
+    {
+       if(b>c)
+        {
+            printf("%d is greatest",b);
+        }
+        else
+        {
+            printf("%d is greatest",c);
+        }
+    }
+    
+    return 0;
+}
+```
+**⚙️ Output :**
+>Enter the values of a,b,c 300 200 100   
+300 200 100  
+300 is greatest
+
+**💻Example:**
+```c
+
+#include <stdio.h>
+
+int main() {
+    int a,b,c;
+    printf("Enter the values of a,b,c");
+    scanf("%d%d%d",&a,&b,&c);
+    
+    if(a>b && a>c)
+    {
+        printf("%d is greatest",a);
+    }
+    else if(b>a && b>c )
+        {
+            printf("%d is greatest",b);
+        }
+    
+    else
+        {
+            printf("%d is greatest",c);
+        }
+    return 0;
+}
+```
+**⚙️ Output :**
+>Enter the values of a,b,c 20 10 30  
+20 10 30   
+30 is greatest
