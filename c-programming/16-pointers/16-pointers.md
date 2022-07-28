@@ -205,3 +205,28 @@ int main() {
 7-> 22<br>
 
 <br>
+## Pointers
+
+**💻Example 1 :**
+
+```c
+#include <stdio.h>
+
+int main() {
+    
+    int num;
+    
+    int *p = &num;
+    printf("Enter Number: ");
+    scanf("%d", p);
+    
+    printf("Value is: %d", num);
+    
+    return 0;
+}
+```
+**⚙️ Output :** 
+>Enter Number: 10<br>
+Value is: 10<br>
+
+<br>
