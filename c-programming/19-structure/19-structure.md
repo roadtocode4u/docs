@@ -1,4 +1,4 @@
-# Lecture-28 Structures in C Programming 
+# Structures in C Programming 
 
 ## Structures
 
