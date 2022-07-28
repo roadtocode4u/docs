@@ -126,3 +126,68 @@ int main() {
 15<br>
 20<br>
 25<br>
+
+
+## Reverse an Array
+
+Q1. Print an array in reverse format.
+
+
+**💻Example 1 :**
+
+```c
+#include <stdio.h>
+
+int main() {
+    
+    int arr[6] = {18, 2, 17, 19, 21, 45};
+    
+    for(int i=5; i>=0; i--)
+    {
+        printf("%d, ", arr[i]);
+    }
+    
+    return 0;
+}
+```
+**⚙️ Output :** 
+>45, 21, 19, 17, 2, 18, 
+
+**💻Example 2 :**
+```c
+#include <stdio.h>
+
+int main() {
+    
+    int arr[6] = {18, 2, 17, 19, 21, 45};
+    
+      printf("\n Before Reverse: ");
+    for(int i=0; i<6; i++)
+    {
+        printf("%d, ",arr[i]);
+    }
+    
+    int start=0;
+    int end=5;
+    
+    while(start<end)
+    {
+        int temp = arr[start];
+        arr[start] = arr[end];
+        arr[end] = temp;
+        
+        start++;
+        end--;
+    }
+    printf("\n After Reverse: ");
+    for(int i=0; i<6; i++)
+    {
+        printf("%d, ",arr[i]);
+    }
+    
+    return 0;
+}
+```
+**⚙️ Output :** 
+>Before Reverse: 18, 2, 17, 19, 21, 45, <br>
+After Reverse: 45, 21, 19, 17, 2, 18, 
