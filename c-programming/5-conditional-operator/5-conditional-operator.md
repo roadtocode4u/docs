@@ -124,7 +124,8 @@ block of code to be executed the condition is false;
 
 ![flowchart](if-else-img.jpg)
 
-**💻Example:**
+
+**💻Example:  WAP to find whether given number is even or odd**
 ```c
 #include <stdio.h>
 
@@ -152,7 +153,7 @@ int main() {
 Given number is odd
 
 
-**💻Example:**
+**💻Example:  WAP to find out your age is eligible for  voting or not**
 ```c
 #include <stdio.h>
 
@@ -193,7 +194,7 @@ Logical operator are used to chaining condition.
   
   Result True, if both operand condition are true otherwise false.
 
-**💻Example:**
+**💻Example: WAP to find eligibility for admission using if else statement**
 ```c
 
 #include <stdio.h>
@@ -217,7 +218,7 @@ int main() {
 **⚙️ Output :**
 >Admission Granted ..
 
-**💻Example:**
+**💻Example: WAP to find eligibility for admission using if else statement**
 ```c
 
 #include <stdio.h>
@@ -241,7 +242,7 @@ int main() {
 **⚙️ Output :**
 >Admission Rejected ...
 
-**💻Example:**
+**💻Example: WAP to find eligibility for admission using if else statement**
 ```c
 
 #include <stdio.h>
@@ -293,7 +294,7 @@ int main()
 **⚙️ Output :**
 >Admission Granted ...
 
-**💻Example:**
+**💻Example: WAP to find eligibility for admission using if else statement**
 ```c
 
 #include <stdio.h>
@@ -318,7 +319,7 @@ int main()
 **⚙️ Output :**
 >Admission Granted ...
 
-**💻Example:**
+**💻Example: WAP to find eligibility for admission using if else statement**
 ```c
 #include <stdio.h>
 
@@ -342,7 +343,7 @@ int main()
 **⚙️ Output :**
 >Admission Granted ...
  
-**💻Example:**
+**💻Example: WAP to find eligibility for admission using if else statement**
 ```c
 #include <stdio.h>
 
@@ -369,7 +370,7 @@ int main()
 
 ### Logical Not (!)
 
-**💻Example:**
+**💻Example: WAP to find result of given subject**
 ```c
 #include <stdio.h>
 
@@ -412,7 +413,7 @@ else
 }
 ```
 
-**💻Example:**
+**💻Example: WAP to find out grade of given percentage using if else ladder**
 ```c
 #include <stdio.h>
 
@@ -443,7 +444,8 @@ int main() {
 **⚙️ Output :**
 >Grade B
 
-**💻Example:**
+**💻Example: WAP to find out grade of given percentage using if else ladder**
+
 ```c
 #include <stdio.h>
 
@@ -478,7 +480,7 @@ int main() {
 **⚙️ Output :**
 >Grade D
 
-**💻Example:**
+**💻Example: WAP to find out grade of given percentage using if else ladder**
 ```c
 #include <stdio.h>
 
@@ -533,7 +535,7 @@ else
 }
 ```
 
-**💻Example:**
+**💻Example: WAP to give **
 ```c
 
 #include <stdio.h>
