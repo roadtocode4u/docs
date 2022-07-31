@@ -29,9 +29,9 @@ Week-4
 
 Week-5
 
-- Functions
-- Definition for Inbuilt Functions
-  
+- User Defined Functions
+- Inbuilt Functions
+
 Week-6
 
 - Pointers
