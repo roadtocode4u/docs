@@ -3,29 +3,57 @@
 ## 💁🏻‍♀️ Types of Tags
 
 ### Based on closing tag
+<<<<<<< HEAD
 ```
 1. Empty Tag 
 for e.g. :- <br> , <br/>
 
 2. Container Tag 
+=======
+
+1. Empty Tag :- Tags with no closing tag
+```
+for e.g. :- <br> , <br/>
+```
+2. Container Tag :- Tags with both opening and closing tag
+```
+>>>>>>> 0297bdf2448515066e21b0211fd3b9b59ef80c26
 for e.g. :- <h1> </h1>
 ```
 
 ### Based on Names
+<<<<<<< HEAD
 ```
 1. Semantic Tags 
 for e.g. :- <form> , <table>
 
 2. Non Semantic Tags 
+=======
+
+1. Semantic Tags :- Semantic tag have meaningful name of the information in webpage.
+```
+for e.g. :- <form> , <table>
+```
+
+2. Non Semantic Tags :- Non Semantic tag don't tell anything about the content.
+```
+>>>>>>> 0297bdf2448515066e21b0211fd3b9b59ef80c26
 for e.g. :- <div> , <a>
 ```
 
 ## Bold Tag
 
+<<<<<<< HEAD
 ```
 <b>Bold Text</b>
 
 Defines bold text
+=======
+Defines bold text
+
+```
+<b>Bold Text</b>
+>>>>>>> 0297bdf2448515066e21b0211fd3b9b59ef80c26
 ```
 **💻Example :**
 ```html
@@ -47,10 +75,17 @@ Defines bold text
 
 ## Italic Tag
 
+<<<<<<< HEAD
 ```
 <i>Text</i>
 
 Defines italic text
+=======
+Defines italic text
+
+```
+<i>Text</i>
+>>>>>>> 0297bdf2448515066e21b0211fd3b9b59ef80c26
 ```
 **💻Example :**
 ```html
@@ -58,8 +93,11 @@ Defines italic text
     Normal Text <br/>
     <i>Italic Text</i>
 </body>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 0297bdf2448515066e21b0211fd3b9b59ef80c26
 ```
 **⚙️ Output :**
 
@@ -67,10 +105,17 @@ Defines italic text
 
 ## Underline Tag
 
+<<<<<<< HEAD
 ```
 <u>Underline Text</u>
 
 Use to underline a text in HTML
+=======
+Use to underline a text in HTML
+
+```
+<u>Underline Text</u>
+>>>>>>> 0297bdf2448515066e21b0211fd3b9b59ef80c26
 ```
 **💻Example :**
 ```html
@@ -85,10 +130,17 @@ Use to underline a text in HTML
 
 ## Delete Tag
 
+<<<<<<< HEAD
 ```
 <del>Delete Text</del>
 
 It is used to mark a portion of text which has been deleted from the document.
+=======
+It is used to mark a portion of text which has been deleted from the document.
+
+```
+<del>Delete Text</del>
+>>>>>>> 0297bdf2448515066e21b0211fd3b9b59ef80c26
 ```
 **💻Example :**
 ```html
@@ -103,12 +155,20 @@ It is used to mark a portion of text which has been deleted from the document.
 
 ## Bold & Italic Tag
 
+<<<<<<< HEAD
+=======
+Defines bold & italic text
+
+>>>>>>> 0297bdf2448515066e21b0211fd3b9b59ef80c26
 ```
 <i><b>Sample Text</b></i>
 OR
 <b><i>Sample Text</i></b>
+<<<<<<< HEAD
 
 Defines bold & italic text
+=======
+>>>>>>> 0297bdf2448515066e21b0211fd3b9b59ef80c26
 ```
 **💻Example :**
 ```html
