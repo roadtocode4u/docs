@@ -24,6 +24,7 @@ Week-4
 
 - Arrays
 - Strings
+- ASCII and Operations on String
 - Linear Search & Binary Search
 - Bubble Sort
 
