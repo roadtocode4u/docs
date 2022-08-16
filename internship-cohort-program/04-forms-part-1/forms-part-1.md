@@ -1,4 +1,4 @@
-# Lecture-2 Forms Tag in HTML
+# Lecture-4 Forms Tags in HTML
 
 ## 💁🏻‍♀️ Forms
 
