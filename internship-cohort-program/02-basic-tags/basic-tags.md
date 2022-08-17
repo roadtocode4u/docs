@@ -1,4 +1,4 @@
-# Lecture-1 Basic Tags of HTML
+# Lecture-2 Basic Tags of HTML
 
 ## 💁🏻‍♀️ Types of Tags
 
