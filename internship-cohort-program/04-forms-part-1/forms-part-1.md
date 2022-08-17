@@ -313,6 +313,123 @@ How to provide size in textarea
 
 ![Output](output15.png) 
 
+## Checkbox 
+Checkbox is used to multiple selection.
+
+**💻Example :**
+```html
+<!DOCTYPE html>
+<html >
+<head>
+    <title> Checkbox </title>
+</head>
+<body>
+    <form>
+        <input type="checkbox" value=" Soan Papadi"/> Soan Papadi <br/>
+        <input type="checkbox" value="Kaju Katli"/> Kaju Katli <br/>
+        <input type="checkbox" value="Gulab Jamun"/> Gulab Jamun 
+    </form>
+</body>
+</html>
+```
+**⚙️ Output :**
+
+![Output](output-16.png) 
+
+## Radio Button
+
+Radio Button is used to Single selection.
+
+**💻Example :**
+```html
+<!DOCTYPE html>
+<html >
+<head>
+    <title> Checkbox </title>
+</head>
+<body>
+    <form>
+        <input type="radio" name="gender"/> Female <br/>
+        <input type="radio" name="gender"/> Male
+    </form>
+</body>
+</html>
+```
+**⚙️ Output :**
+
+![Output](output-17.png)
+
+**💻Example :**
+```html
+<!DOCTYPE html>
+<html >
+<head>
+    <title> Checkbox </title>
+</head>
+<body>
+    <form>
+        <h4> Please Select Gender :</h4>
+        <input type="radio" name="gender" value="female"/> Female <br/>
+        <input type="radio" name="gender" value="male"/> Male
+ 
+        <h4> Please select Board </h4>
+        <input type="radio" name="board" value="State"/> State <br/>
+        <input type="radio" name="board" value="CBSE"/> CBSE
+    </form>
+</body>
+</html>
+```
+**⚙️ Output :**
+
+![Output](output-18.png)
+
+## Dropdown 
+
+**💻Example :**
+```html
+<!DOCTYPE html>
+<html >
+<head>
+    <title> Checkbox </title>
+</head>
+<body>
+    <form>
+        <select>
+            <option> Select Your City :  </option>
+            <option value="Bangalore"> Bangalore </option>
+            <option value="Chennai"> Chennai </option>
+            <option value="Kolkata"> Kolkata </option>
+            <option value="Delhi"> Delhi </option>
+        </select>
+    </form>
+</body>
+</html>
+```
+**⚙️ Output :**
+
+![Output](output-19.png)
+
+## Unique id 
+
+Id attribute give unique id for an HTML element.
+
+**💻Example :**
+```html
+<!DOCTYPE html>
+<html >
+<head>
+    <title> Checkbox </title>
+</head>
+<body>
+    <form>
+        <label for="inputname"> Name: </label>
+       <input type="text" id="inputname"/>
+    </form>
+</body>
+</html>
+```
+![Output](output-20.png)
+
 ## 🏠 HomeWork
 
 >1️⃣ Create a indian railway Webpage using input field tags and add indian railway image, source, destination, date, time, number etc where all the info is shown about.
