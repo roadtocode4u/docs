@@ -132,7 +132,7 @@ ordered list used to create a list of related items which have specific order or
 
 **type="I":** This type will be numbered as  lowercase uppercase roman numbers.
 
-**type="i":**This type will be numbered as lowercase roman numbers.
+**type="i":** This type will be numbered as lowercase roman numbers.
 
 ## Start
 
