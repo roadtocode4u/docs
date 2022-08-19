@@ -1,4 +1,4 @@
-# Lecture-7 Ordered List, Unordered List Video Tag in HTML
+# Lecture-7 Ordered List, Unordered List and Video Tag in HTML
 
 ### There are two types of list in HTML
 1. Ordered List
