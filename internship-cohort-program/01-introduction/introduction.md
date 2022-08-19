@@ -2,21 +2,20 @@
 
 ## 💁🏻‍♀️ Introduction
 
-HTML is the standard markup language and is used to  creating Web pages.
+HTML is the standard markup language and is used to create Web pages.
 
-It was created by Tim Berners Lee, and released in 1993.
+It was created by Tim Berners Lee and released in 1993.
 
 
-## 🤔 How to download and install VS code ?
+## 🤔 How to download and install VS code?
 
-  👉 [Click Here to to download VS code ](https://code.visualstudio.com/download#)
+  👉 [Click Here to download VS code ](https://code.visualstudio.com/download#)
 
   **Steps to download VS code**
 
-  1. Click the above Link to download VS code👆 .
-  2. Download VS code installer for Windows. 
-  3. Then Setup VS code with accept the agreement and click “next.”
-  4. Accepting all the Agreements then  press finish button.
+  1. Click the above Link to download VS code👆 . 
+  2. Set up VS code by accepting the agreement and clicking “next.”
+  3. Accept all the Agreements, then press the finish button.
 
 ## Tag in HTML
 
@@ -25,15 +24,15 @@ It was created by Tim Berners Lee, and released in 1993.
 
     </tagname> 👈 Closing Tag 
 ```
-```html
+```HTML
     <br> 👈 This tag is used for break line.
 ```
 
 ## Heading tag in HTML
 
- In HTML heading are title or subtitle that are used to display on a webpage.There are six heading elements. These elements are h1,h2,h3,h4,h5,h6. h1 is the High and h6 is low.
+ In HTML, headings are titles or subtitles used to display on a webpage. There are six heading elements. These elements are h1,h2,h3,h4,h5,h6. h1 is the biggest, and h6 is the smallest.
 
-```html
+```HTML
     <h1> Heading 1 </h1>
     <h2> Heading 2 </h2>
     <h3> Heading 3 </h3>
@@ -46,7 +45,7 @@ It was created by Tim Berners Lee, and released in 1993.
 
 ## 💻 Code Blocks
 
-```html
+```HTML
  <!DOCTYPE html>
 <html>
     <head>
@@ -56,16 +55,16 @@ It was created by Tim Berners Lee, and released in 1993.
     </head>
     <body>
         Hello Students 👋, <br>
-        Good Evening , <br>
+        Good Evening, <br>
         Welcome to ICP 3.0 💫❤️
     </body>
 </html>
 ```
 **Example Explanation**
 
-```html
-<!DOCTYPE html> Defines The Document type is html
-<html> Define html document 
+```HTML
+<!DOCTYPE html> Defines The Document type is HTML
+<html> Define HTML document 
 <head> Information of Html page
 <title> This element specifies a title for the HTML page
 <body> Define the Program body 
@@ -77,4 +76,4 @@ It was created by Tim Berners Lee, and released in 1993.
 
 ## 🏠 HomeWork
 
->1️⃣ Create a Webpage For Showing Your basic details Like fullname, College name , etc. 
+>1️⃣ Create a Webpage For Showing Your basic details Like the full name, College name, etc. 
