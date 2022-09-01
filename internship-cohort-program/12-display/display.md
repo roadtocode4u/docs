@@ -1,17 +1,17 @@
-# Display block, inline and inline-block 
+# Display: block, inline and inline-block
 
-## Display 
+## Display
 
 Display is used to To Control the Layout.
 
 **Display 2 Properties**
 
-1. Block 
+1. Block
 2. Inline
 
-## Block elements 
+## Block elements
 
-Properties of block elements 
+Properties of block elements
 
 1. Start From new line.
 2. Takes Full width of screen.
@@ -43,7 +43,7 @@ Properties of block elements
         }
     </style>
 </head>
-<body> 
+<body>
     <div class="a">
         This is a Division
     </div>
@@ -52,15 +52,15 @@ Properties of block elements
         This is a Heading
     </h1>
 </body>
-</html> 
+</html>
 ```
 **⚙️ Output :**
 
-![Output](output-1.png) 
+![Output](output-1.png)
 
-## Inline Elements 
+## Inline Elements
 
-Properties of inline elements 
+Properties of inline elements
 
 1. Does not Start from new line.
 2. Takes required width for content.
@@ -84,7 +84,7 @@ Properties of inline elements
         }
     </style>
 </head>
-<body> 
+<body>
    <p> This is sample text. <span class="a"> This is Span. </span> This is another sentence. We are learning display inline in css.</p>
 </body>
 </html>
@@ -107,7 +107,7 @@ Properties of inline elements
         }
     </style>
 </head>
-<body> 
+<body>
     This is sample text. <h1 class="a"> This is a heading. </h1> This is another sentence. We are learning display inline in css.
 </body>
 </html>
@@ -132,7 +132,7 @@ Properties of inline elements
         }
     </style>
 </head>
-<body> 
+<body>
     This is sample text. <span class="a"> This is Span. </span> This is another sentence. We are learning display inline in css.
 </body>
 </html>
@@ -179,7 +179,7 @@ Properties of inline elements
        }
     </style>
 </head>
-<body> 
+<body>
     <div class="c">
         C programming
     </div>
