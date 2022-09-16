@@ -10,9 +10,9 @@
 
 5. **cd ..** => Go Back to previous directory
 
-6. **```Git Clone <repo url>```** => Make a clone or copy of that repoistory 
+6. **```Git Clone <repo url>```** => Make a clone or copy of that repository 
 
-7. **ctrl + ~** => To open Terminal
+7. **```ctrl + ~```** => To open Terminal
 
 8. **git status** =>  Git status command displays the state of the working directory
 
