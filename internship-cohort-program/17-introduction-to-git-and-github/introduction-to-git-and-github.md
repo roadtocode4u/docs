@@ -200,3 +200,37 @@ pipeline => A pipeline is a series of steps that must be taken in order to deliv
 15. Step of deploying site 
 
 ![step of Deploying site](ss-24.png)
+
+16. Publish your website
+
+![Publish your website](ss-25.png)
+
+Your new website is live, and you can view it by clicking on the green link.
+
+Your URL looks random now, but you can edit it by clicking the Site Settings button and then clicking on the Change Site Name button.
+
+17. 🤔 How to change site name ?
+
+![site setting](ss-26.png)
+
+![change site name](ss-27.png)
+
+![live website](ss-28.png)
+
+Congratulations, your first website is published now! Now we will learn how to publish a website using GitHub.
+
+1. Go to your website repository
+
+![website repo](ss-29.png)
+
+2. Select the settings icon
+
+![select setting icon](ss-30.png)
+
+3. Add your website URL in the website section and then save the changes.
+
+![add url](ss-31.png)
+
+4. All Done
+
+![url link](ss-32.png)
