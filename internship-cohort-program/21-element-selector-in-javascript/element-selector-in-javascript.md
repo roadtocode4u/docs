@@ -253,3 +253,198 @@
 
 ![Output](output-9.png)
 
+**Query Selector**
+
+```html
+1. querySelector() 
+
+👉(use=> For single element)
+
+2. querySelectorAll() 
+
+👉(use=> For multiple element)
+```
+
+**💻Example :**
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Javscript </title>
+</head>
+<body>
+
+  <b> This is bold element 1</b>
+  <b> This is bold element 2</b>
+
+  <script>
+    const element = document.querySelector("b");
+    console.log(element);
+  </script>
+</body>
+
+</html>
+```
+**⚙️ Output :**
+
+![Output](output-10.png)
+
+**💻Example :**
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Javscript </title>
+</head>
+
+<body>
+
+  <b> This is bold element 1</b>
+  <b> This is bold element 2</b>
+
+  <script>
+    const element = document.querySelectorAll("b");
+    console.log(element);
+  </script>
+</body>
+
+</html>
+```
+**⚙️ Output :**
+
+![Output](output-11.png)
+
+**💻Example :**
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Javscript </title>
+</head>
+
+<body>
+
+  <b> This is bold element 1</b>
+  <b> This is bold element 2</b>
+
+  <script>
+    const element = document.querySelectorAll("b");
+    console.log(element[1]);
+  </script>
+</body>
+</html>
+```
+**⚙️ Output :**
+
+![Output](output-12.png)
+
+**💻Example :**
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Javscript </title>
+</head>
+
+<body>
+
+  <b id="xyz"> This is bold element 1</b>
+  <b id="xyz"> This is bold element 2</b>
+
+  <script>
+    const element = document.querySelectorAll("#xyz");
+    console.log(element);
+  </script>
+</body>
+</html>
+```
+**⚙️ Output :**
+
+![Output](output-13.png)
+
+
+**💻Example :**
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Javscript </title>
+</head>
+
+<body>
+
+  <b class="my-text"> This is bold element 1</b>
+  <b class="my-text"> This is bold element 2</b>
+
+  <script>
+    const element = document.querySelectorAll(".my-text");
+    console.log(element);
+  </script>
+</body>
+</html>
+```
+**⚙️ Output :**
+
+![Output](output-14.png)
+
+**💻Example :**
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Javscript </title>
+</head>
+<style>
+  .my-img{
+    height: 100px;
+  }
+</style>
+<body>
+
+  <img src="sun.png" class="my-img" />
+
+  <script>
+    const imgElement = document.querySelector(".my-img");
+    imgElement.src = "moon.png"
+  </script>
+</body>
+</html>
+```
+**⚙️ Output :**
+
+![Output](output-15.png)
+
+**💻Example :**
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Javscript </title>
+</head>
+<style>
+  h1 {
+    color: tomato;
+  }
+</style>
+
+<body>
+
+  <h1> Javascript </h1>
+
+  <script>
+    const heading = document.querySelector("h1");
+    heading.style.color = "aqua"
+  </script>
+</body>
+
+</html>
+```
+**⚙️ Output :**
+
+![Output](output-16.png)
+
