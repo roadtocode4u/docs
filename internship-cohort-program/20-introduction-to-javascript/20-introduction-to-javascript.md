@@ -204,6 +204,34 @@ Variables defined using let cannot be re-declared.
 
 >Sum :30
 
+## Difference between var, let and const
+### var
+
+* The scope of the var variable is the functional scope.
+
+* It can be updated and re-declared in scope.
+
+* It can be declared without initialization.
+
+* It can be accessed without initialization because its default value is undefined.
+
+### let
+
+* Let allow us to declare a variable that is limited to the scope of a block.
+
+* In let first we declare variable and second time we used so there is no need to write second time.
+
+* It can be declared without initialization.
+
+* It cannot accessed without initialization, or a "reference error" will be raised.
+
+### const
+
+* The scope of the const variable is block scope.
+
+* It cannot be updated or re-declared in scope.
+
+* It cannot be accessed without initialization because it cannot be declared without initialization.
 ## 🏠 HomeWork
 
 >1️⃣  Write a JavaScript program to perform arithmetic operators.
