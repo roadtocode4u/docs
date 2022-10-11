@@ -175,6 +175,25 @@ The ‘==’ operator checks whether the two given operands are equal or not.
 ## 🏠 HomeWork
 
 >1️⃣ Write a program to check whether applicant is eligible for voting or not using if statement.
+
+<details>
+  <summary>👁 Show Answer</summary>
+
+  <p>
+  
+  ```python
+  age=int(input("Enter Your age :"))
+  if age>=18:
+    print("You are eligible for Voting")
+  else:
+    print("You are not eligible for Voting")
+  ```
+
+  </p>
+</details>
+
+>2️⃣ Write a program to check whether entered number is even ir odd by using if-else statements.
+
 <details>
   <summary>👁 Show Answer</summary>
 
@@ -191,24 +210,6 @@ The ‘==’ operator checks whether the two given operands are equal or not.
 
   </p>
 
-</details>
-
->2️⃣ Write a program to check whether entered number is even ir odd by using if-else statements.
-
-<details>
-  <summary>👁 Show Answer</summary>
-
-  <p>
-  
-  ```python
-  age=int(input("Enter Your age :"))
-  if age>=18:
-    print("You are eligible for Voting")
-  else:
-    print("You are not eligible for Voting")
-  ```
-
-  </p>
 </details>
 
 ## 🔗 Some Useful Links
