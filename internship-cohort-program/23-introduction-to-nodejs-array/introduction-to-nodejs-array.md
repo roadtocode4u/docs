@@ -133,3 +133,204 @@ console.log(arr);
 **⚙️ Output :**
 
 ![Output](output-9.png)
+
+**tostring()**
+
+toString() method convert array to string.
+
+**💻Example :**
+ 
+```html
+const arr = ["Satyam", "Dhirendra", "Avishkar"]
+
+console.log(arr);
+
+console.log(arr.toString());
+```
+**⚙️ Output :**
+
+![Output](output-20.png)
+
+**join**
+
+It is similar to toString() method but we can specify seperator.
+
+**💻Example :**
+
+```html
+const arr = ["satyam", "dhirendra", "avishkar"]
+
+console.log(arr);
+
+console.log(arr.join(","));
+```
+
+**⚙️ Output :**
+
+![Output](output-10.png)
+
+**💻Example :**
+
+```html
+const arr = ["satyam", "dhirendra", "avishkar"]
+
+console.log(arr);
+
+let arrStr = arr.join("$")
+console.log(arrStr);
+
+console.log(arr);
+```
+
+**⚙️ Output :**
+
+![Output](output-11.png)
+
+**shift**
+
+Shift method removes the starting elements.
+
+**💻Example :**
+
+```html
+const arr = ["satyam", "dhirendra", "avishkar"]
+
+console.log(arr);
+
+arr.shift()
+
+console.log(arr);
+```
+
+**⚙️ Output :**
+
+![Output](output-12.png)
+
+**unshift**
+
+unshift method add the elements in the starting.
+
+**💻Example :**
+
+```html
+const arr = ["satyam", "dhirendra", "avishkar"]
+
+console.log(arr);
+
+arr.unshift("shital")
+console.log(arr);
+
+arr.unshift("utkarsha")
+console.log(arr);
+```
+
+**⚙️ Output :**
+
+![Output](output-13.png)
+
+
+**update**
+
+**💻Example :**
+
+```html
+const arr = ["satyam", "dhirendra", "avishkar"]
+
+console.log(arr);
+
+arr[1] = "Rupal"
+
+console.log(arr);
+```
+
+**⚙️ Output :**
+
+![Output](output-14.png)
+
+
+**splice**
+
+```html
+splice(index, no.of elements to delete, elements to insert)
+```
+
+**💻Example :**
+
+```html
+const arr = ["Mouse", "Laptop", "Keyborad", "USB", "Pen Drive"]
+
+console.log(arr);
+
+arr.splice(2, 2)
+
+console.log(arr);
+```
+
+**⚙️ Output :**
+
+![Output](output-15.png)
+
+
+**💻Example :**
+
+```html
+const arr = ["Mouse", "Laptop", "Keyborad", "USB", "Pen Drive"]
+
+console.log(arr);
+
+arr.splice(2, 2, "Monitor", "Mouse Pad")
+
+console.log(arr);
+```
+
+**⚙️ Output :**
+
+![Output](output-16.png)
+
+
+**💻Example :**
+
+```html
+const arr = ["Mouse", "Laptop", "Keyborad", "USB", "Pen Drive"]
+
+console.log(arr);
+
+arr.splice(2, 0, "Monitor")
+
+console.log(arr);
+```
+
+**⚙️ Output :**
+
+![Output](output-17.png)
+
+**slice**
+
+**💻Example :**
+
+```html
+const arr = ["A", "B", "C", "D", "E"]
+
+let pieceArray = arr.slice(2)
+console.log(pieceArray);
+
+console.log(arr);
+```
+
+**⚙️ Output :**
+
+![Output](output-18.png)
+
+**💻Example :**
+
+```html
+const arr = ["A", "B", "C", "D", "E"]
+
+let pieceArray = arr.slice(1,4)
+console.log(pieceArray);
+
+```
+
+**⚙️ Output :**
+
+![Output](output-19.png)
