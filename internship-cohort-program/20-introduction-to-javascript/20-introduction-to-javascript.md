@@ -55,7 +55,17 @@ You can Add JavaScript in Html elements then use this script tag. 👇
 
 **💻Example :**
 ```html
-
+<!DOCTYPE html>
+<html>
+<head>
+   <script>
+    alert("Bye Bye");
+   </script>
+</head>
+<body>
+    
+</body>
+</html>
 ```
 **⚙️ Output :**
 
@@ -63,7 +73,18 @@ You can Add JavaScript in Html elements then use this script tag. 👇
 
 **💻Example :**
 ```html
-
+<!DOCTYPE html>
+<html>
+<head>
+   <script>
+    alert("Hello From JavaScript");
+    alert("Bye Bye");
+   </script>
+</head>
+<body>
+    
+</body>
+</html>
 ```
 **⚙️ Output :**
 ![Output](output-2.png)
