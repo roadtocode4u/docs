@@ -77,6 +77,38 @@ int main() {
 Hello ABC!
 
 
+**💻 Program to used cout without 'using names space'  :**
+```cpp
+#include <iostream>
+
+int main() {
+  
+    std::cout << "Hello world!";
+
+    return 0;
+}
+```
+**⚙️ Output :**
+>Hello world!
+
+**💻 program  :**
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  
+    cout << "Hello world!";
+
+    cout << "\n This is another text";
+
+    return 0;
+}
+```
+**⚙️ Output :**
+>Hello world!<br>
+>This is another text
+
 ## 🔗 Some Useful Links
 
 ## 📖 References
