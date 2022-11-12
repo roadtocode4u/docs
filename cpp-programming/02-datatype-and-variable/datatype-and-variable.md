@@ -96,6 +96,89 @@ Hello ABC!
 4. It should not be reserved keyword
 5. There should not be any special charecter
 
+
+**Data Types :** 
+
+ Which type of Data are stored in variable .
+
+```cpp
+ int age; //declaration
+
+ age = 30; //assign value
+
+ age = 40; //assign value
+
+ example : int age = 20;
+```
+
+## How to declared value in C programming and C++
+```c
+C programmimg : 
+
+int age = 20;
+printf("%d", age);
+
+C++ : 
+
+int age = 20;
+cout<<age;
+```
+
+**💻 Example 1 :**
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int age = 20;
+
+    cout<<"Age =";
+
+    cout<<age; 
+
+    return 0;
+}
+```
+**⚙️ Output :**
+>Age = 20
+
+
+**💻 Example 2 :**
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int age = 22;
+
+    cout<<"My age is "<<age;
+
+    return 0;
+}
+```
+**⚙️ Output :**
+>my age is 22
+
+**💻 Example 3 :**
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int age = 20;
+    int weight = 50;
+
+    cout<<"My age is"<<age<<"& Weight is"<<weight;
+ 
+    return 0;
+}
+```
+**⚙️ Output :**
+>My age is 20 & weight is 50
+
 ## 🔗 Some Useful Links
 
 ## 📖 References
