@@ -1,7 +1,6 @@
 
 #  Relational Operator & Logical Operators
 
-
 ## 3. Relational Operator : (>,<,>=,<=,==)
 * comparision
 * true / false value
