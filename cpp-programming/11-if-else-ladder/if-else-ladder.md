@@ -1,34 +1,5 @@
 # if-else-ladder and nested-if
 
-### Comments in C++ : 
-```
-* compiler ---> ignore
-
-* programmer ---> redability
-```
- **Two Types of Comments :**
-1. single line comments <br>
-// comment text
-
-2. multiple text <br>
-/* ------- */
-
-```
-1. Single Line Comment : 
-// this is single line Comment
-
-2. Multiple Line Comment : 
-/*
-function to calculate simple interest
-int cal_si(p,r,t)
-{
- ----
- ----
- ----
-} 
-*/
-```
-
 ## Conditional Statements : 
 There are Four Types : 
 1. if 
@@ -261,87 +232,10 @@ int main() {
 >Enter Marks : 880<br>
 Invalid Number
 
-```cpp
-4. nested-if
-syntax : 
-
-if (condition)
-{
-    if
-    {
-        //-----
-    }
-    else
-    {
-        //----
-    }
-}
-else
-{
-    //----
-}
-```
-
-**💻 Example 1 :**
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    int maths=30;
-    int marathi=36;
-
-    if(marks>=35 && marathi>=35>){
-        cout<<"Pass";
-    }
-    else
-    {
-        cout<<"Fail";
-    }  
-
-    return 0;
-}
-```
-**⚙️ Output :**
->Fail
-
-**💻 Example 2 :**
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    int maths=40;
-    int marathi=16;
-
-    if(marathi>=35>)
-    {
-        cout<<"Passed in Marathi";
-        if(maths>=35)
-        {
-            cout<<Passed in Maths"<<endl;
-        }
-         else
-        {
-        cout<<"Failed in Maths";
-        }  
-    }
-    else
-    {
-       cout<<"Failed in Marathi";
-    }
-    return 0;
-}
-```
-**⚙️ Output :**
->Passed in Maths<br>
-Failed in Marathi
 
 
 ## 🏠  HomeWork
 1️⃣ WAP to calculate largrst number among 3 using if-else-ladder ?
-
-2️⃣ WAP to calculate largest number among 3 using nested-if ?
 
 ## 🔗 Some Useful Links
 
