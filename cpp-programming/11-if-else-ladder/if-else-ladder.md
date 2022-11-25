@@ -1,4 +1,4 @@
-# if-else-ladder and nested-if
+# if-else-ladder
 
 ## Conditional Statements : 
 There are Four Types : 
