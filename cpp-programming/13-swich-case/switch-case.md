@@ -144,19 +144,19 @@ int main() {
 
     switch(op)
     {
-        case "-";
+        case '-':
         cout<<"a-b = "<<(a-b);
         break;
 
-        case "+";
+        case '+':
         cout<<"a+b = "<<(a+b);
         break;
 
-        case "*";
+        case '*':
         cout<<"a*b = "<<(a*b);
         break;
 
-        case "/";
+        case '/':
         cout<<"a/b = "<<(a/b);
         break;
 
