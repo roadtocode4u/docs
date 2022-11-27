@@ -121,6 +121,8 @@ It is the source folder of the application. It contains all the files related to
 ### .gitignore
 
 .gitignore file is used to tell git which files or folders to ignore in a project.
+
+
 ### React Components
 
 Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
