@@ -8,7 +8,7 @@ Component is reusable code blocks.
 
 **Syntax**
 
-```html
+```js
   function Home()
   {
         return(
@@ -23,7 +23,7 @@ Component is reusable code blocks.
 
 **Empty Elements <> </>**
 
-```html
+```js
   function Home()
   {
         return(
@@ -44,7 +44,7 @@ If we want to apply the CSS classes, we use className attribute instead of class
 
 **Named Export components Syntax:**
 
-```react
+```js
 export function Name()
 {
     return(<> </>)
@@ -53,13 +53,13 @@ export function Name()
 
 **Named import components Syntax:**
 
-```react
+```js
  import {Name} from fileName;
 ```
 
 **default Export components Syntax:**
 
-```react
+```js
     export default function Name()
     {
         return(<> </>)
@@ -68,6 +68,6 @@ export function Name()
 
 **default import components Syntax:**
 
-```react
+```js
     import Name from file
 ```
