@@ -1,4 +1,7 @@
 # react-router-dom
+1. React router dom is a library in which a user is directed to different pages based on their action or request.
+2. React router is mainly used for developing Single Page Web Applications.
+3. React router is used to define multiple routes in the application.
 
 ```
 react routes -> path
@@ -12,13 +15,13 @@ Home------- contact
   |-------- team     
 ```
 
-### Library
+### Cammand Installation :
 ```
  npm install react-router-dom
 ```
 ![output-1](output-1.png)
 
-### Steps :
+### Steps to use react router library :
 ```
 1. npm i react-router-dom
 ```
@@ -50,13 +53,37 @@ import { BrouserRouter,Routes, Route} from "react-router-dom";
  |
  |---> To define single route
 ```
-output:
-
-![output-2](output-2.png)
-
-### Link
+Your final code view like this :
 ```js
- <Link to=""> About </Link>
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./views/Home/Home";
+import Contact from "./views/Contact/Contact";
+import About from "./views/About/About";
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+       <Route path ="/" element={<Home/>}/>
+       <Route path ="/about" element={<About/>}/>
+       <Route path ="/contact" element={<Contact/>}/>
+      </Routes>
+    </BrowserRouter>
+  );
+}
+```
+
+### Anchor Tag
+describtion:
+
+```js
+<a href="/about">About</a>
+```
+
+### Link Tag
+describtion:
+```js
+ <Link to="/about"> About </Link>
 ```
 
 
