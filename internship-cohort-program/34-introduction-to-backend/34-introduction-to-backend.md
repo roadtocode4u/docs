@@ -23,13 +23,16 @@ Controller => Control The things
  **Application Program Interface**
 
 **Frontend**
- ![frontend](frontend.png)
+
+<img height="250px" src="./frontend.png" />
 
 **API**
- ![api](api.png) 
+
+ <img height="250px" src="./api.png" />
     
 **Backend**
- ![backend](backend.png)
+
+<img height="250px" src="./backend.png" />
 
 ```
  API are acts as an intermediary between frontend and backend.
@@ -69,7 +72,7 @@ app.listen(5000, ()=>{
 })
 ```
 
-![output](output-1.png)
+<img src="./output-1.png" />
 
 **filename = index.js**
 ```html
@@ -86,7 +89,7 @@ app.listen(5000, ()=>{
     console.log("server is runnig on port 5000");
 })
 ```
-![output](output-2.png)
+<img src="./output-2.png" />
 
 
 **filename = index.js**
@@ -113,5 +116,6 @@ app.listen(5000, ()=>{
 })
 ```
 
-![output](output-3.png)
+<img src="./output-3.png" />
+<img src="./output-4.png" />
 
