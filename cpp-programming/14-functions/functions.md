@@ -1,6 +1,6 @@
 ## Functions
 
-*A function in C++ refers to a group of statements that takes input, processes it, and returns an output.*
+**A function in C++ refers to a group of statements that takes input, processes it, and returns an output.**
 
 ## Features of function in C++
 
@@ -108,7 +108,7 @@ Boundry of second rectangle: 18
 
 <br>
 
-*Functions with arguments and return values.*
+**Functions with arguments and return values.**
 
 **💻 Example 4 :**
 
@@ -141,7 +141,7 @@ Ans: 64
 
 <br>
 
-*Functions with arguments and without return values.*
+**Functions with arguments and without return values.**
 
 **💻 Example 5 :**
 
@@ -172,7 +172,7 @@ Ans: 25
 
 <br>
 
-*Functions without arguments and with return values.*
+**Functions without arguments and with return values.**
 
 **💻 Example 6 :**
 
@@ -205,7 +205,7 @@ Ans: 25
 
 <br>
 
-*Functions without arguments and without return values.*
+**Functions without arguments and without return values.**
 
 **💻 Example 7 :**
 
@@ -234,14 +234,6 @@ int main(){
 **⚙️ Output :**
 >Enter number: 8<br>
 Ans: 64
-
-## 🏠  HomeWork
-
-1️⃣ Implement function to calculate SI using 4 types of function
-
-## 🔗 Some Useful Links
-
-## 📖 References
 
 
 
