@@ -16,7 +16,7 @@ Model => Backend
 
 Controller => Control The things
 
-````
+```
 
 ## APIs
 
@@ -36,28 +36,66 @@ Controller => Control The things
 
 ```
  API are acts as an intermediary between frontend and backend.
- 
-  
 ```
 
-**Create Node App Step**
+**Steps of Create simple Node App**
 
-**Step 1** => npm init -y
+**Step 1** => Create Node
 
+```
+npm init -y
+```
+   
    i) Create File **index.js**
 
    ii) Add Start Command in package.json file
 
-**Step 2** => npm install express
+```
+"start": "node index.js"
+```
 
-    i) "type": "module"
+**Step 2** => Create Express server
 
-**Create API Step**
+```
+npm install express
+```
 
-Step 1 => import express
+**Add ECMAScript modules in package.json file**
+```
+ "type": "module"
+```
 
-Step 2 => Create instance of express
+**Step 3** => import express
 
+```
+import express from "express";
+```
+
+**Step 4** => Create instance of express
+
+```
+const app = express();
+```
+
+**Step 5** => Create middleware function for Express
+
+```
+app.use(express.json());
+```
+
+**Step 6** => Port 
+```
+app.listen(5000, ()=>{
+    console.log("server is runnig on port 5000");
+})
+```
+**Step 7**=> Start your server using following command 
+
+```
+npm start
+```
+
+**💻 Simple Server Started example**
 
 **filename = index.js**
 
@@ -73,6 +111,14 @@ app.listen(5000, ()=>{
 ```
 
 <img src="./output-1.png" />
+
+**Simple API**
+
+```
+app.get('/ping', (req,res)=>{
+    res.send("pong");
+})
+```
 
 **filename = index.js**
 ```html
@@ -118,4 +164,93 @@ app.listen(5000, ()=>{
 
 <img src="./output-3.png" />
 <img src="./output-4.png" />
+
+
+## Nodemon
+
+Nodemon is a dependency for keeping track of server changes and automatically restarts our app.
+
+**Command to install Nodemon dependency**
+
+```html
+npm i nodemon
+```
+
+**Send route response in JSON Format**
+
+```
+app.get('/coffee', (req,res)=>{
+    res.send({
+        message: "Coffee is Good"
+    });
+})
+```
+
+ **💻 Example :**
+```html
+import express from "express";
+
+const app = express();
+app.use(express.json());
+
+app.get('/coffee', (req,res)=>{
+    res.send({
+        name: "cooffe",
+        price: 2.5
+    });
+})
+
+app.listen(5000, ()=>{
+    console.log("server is runnig on port 5000");
+})
+
+```
+
+<img src="./output-5.png" />
+
+## Get and Post Method
+
+
+**Get Method** 
+
+To read Resources 
+
+**Post Method**
+
+To create Resources
+
+
+```html
+app.post('/coffee', (req,res)=>{
+    res.send({
+        name: 'coffee is being made'
+    });
+})
+```
+
+## Reading parameter from request body
+
+```html
+app.post('/coffee', (req,res)=>{
+
+    // console.log(req.body);
+
+    const tableNumber  = req.body.tableNumber;
+    const coffeeType = req.body.coffeeType
+
+    res.send({
+        orderDetails: `Table ${tableNumber} ordered a ${coffeeType}
+    }); 
+})
+```
+
+<img src="./output-7.png" />
+<img src="./output-6.png" />
+
+## Query Params
+
+
+
+
+
 
