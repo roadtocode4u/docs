@@ -78,7 +78,7 @@ Open your terminal and follow the steps:
 
 **Step 1** => Create a folder and open it in your terminal. Then run the following command to create a package.json file.
 
-```
+```js
 npm init -y
 ```
    
@@ -86,48 +86,48 @@ npm init -y
 
    ii) Add a start script in package.json file. 
 
-```
+```js
 "start": "node index.js"
 ```
 
 **Step 2** => Create a dependency for Express. Run the following command in your terminal.
 
-```
+```js
 npm install express
 ```
 
 **Add ECMAScript modules in package.json file**
-```
+```js
  "type": "module"
 ```
 
 **Step 3** => import Express in index.js file. 
 
-```
+```js
 import express from "express";
 ```
 
 **Step 4** => Create a Express app by calling express function.
 
-```
+```js
 const app = express();
 ```
 
 **Step 5** => Create a middleware for parsing JSON data. Middleware is a function that has access to the request and response objects.
 
-```
+```js
 app.use(express.json());
 ```
 
 **Step 6** => Create a server and listen to port 5000.
-```
+```js
 app.listen(5000, ()=>{
     console.log("server is runnig on port 5000");
 })
 ```
 **Step 7**=> Start the server by running the following command in your terminal.
 
-```
+```js
 npm start
 ```
 
@@ -136,7 +136,7 @@ npm start
 **filename = index.js**
 
 
-```html
+```js
 import express from "express";
 
 const app = express();
@@ -155,14 +155,14 @@ app.listen(5000, ()=>{
 
 Here we are creating a simple API that will return a string when we hit the route **/ping**.
 
-```
+```js
 app.get('/ping', (req,res)=>{
     res.send("pong");
 })
 ```
 
 **filename = index.js**
-```html
+```js
 import express from "express";
 
 const app = express();
@@ -186,9 +186,7 @@ As we can see in the output, we are getting a string **pong** when we hit the ro
 **filename = index.js**
 Here we are creating a simple food API that will return a string when we hit the route **/coffee** and **/pizza**.
 
-```
-
-```html
+```js
 import express from "express";
 
 const app = express();
@@ -224,7 +222,7 @@ Nodemon is a dependency for keeping track of server changes and automatically re
 
 **Command to install Nodemon dependency**
 
-```html
+```js
 npm i nodemon
 ```
 
@@ -233,7 +231,7 @@ npm i nodemon
 we have to send the response in JSON format. To do that we can use the following code.
 
 
-```
+```js
 app.get('/coffee', (req,res)=>{
     res.send({
         message: "Coffee is Good"
@@ -242,7 +240,7 @@ app.get('/coffee', (req,res)=>{
 ```
 
  **💻 Example :**
-```html
+```js
 import express from "express";
 
 const app = express();
@@ -279,7 +277,7 @@ Post method is used to create the data on the server. It is used to create the d
 
 
 
-```html
+```js
 app.post('/coffee', (req,res)=>{
     res.send({
         name: 'coffee is being made'
