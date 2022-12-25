@@ -31,21 +31,12 @@ JSON
 
 - JSON is a text-based format.
 - JSON is human-readable.
-- JSON is language-independent.
-- JSON is a subset of JavaScript.
-
 - JSON supports string, number, boolean, array, object, null.
 
 BSON
 
 - BSON is a binary-based format.
-
 - BSON is not human-readable.
-
-- BSON is language-independent.
-
-- BSON is a superset of JSON.
-
 - BSON supports Date, ObjectID, Binary Data.
 
 ### Database
