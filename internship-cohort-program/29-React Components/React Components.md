@@ -1,19 +1,43 @@
 ## React Components
 
-Components let split the UI into independent, reusable code, and think about each code in isolation.
+Components is a reusable codeblocks that can be used to build UI elements.
 
 **Syntax :**
 
 ```js
 function Home() {
-  return 
+  return (
     <div>
       <h1>Home</h1>
     </div>
+  );
 }
 export default Home;
 ```
+## Empty elements 
 
+Empty tags are called self-closing tags. They are used to create elements that don’t have any content.
+
+**Syntax :**
+
+```js
+<> </>
+```
+
+**Example :**
+
+```js
+  function Home()
+  {
+        return(
+            <>
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+            </>
+            );
+  }
+  export default Home;
+  ```
 **Example :**
 
 src/App.js
